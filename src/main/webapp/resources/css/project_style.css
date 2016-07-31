@@ -1,0 +1,92 @@
+body {
+    font: 300 14px/1.4em "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 20px !important;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background: #000 none repeat scroll 0 0 !important;
+    color: #fff !important ;
+}
+
+.inputAddress {
+	width: 475px !important;
+	height: 40px !important;
+	
+	box-shadow: 0 -2px 1px rgba(0, 0, 0, 0.03) inset !important;
+	/*padding: 16px 16px 16px 60px !important;*/
+	
+}
+
+.uberColor {
+	color:#64b2cc;
+}
+
+.listDisplay  {
+    max-width: 400px;
+}
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+    #footer {
+        margin-left: -20px;
+        margin-right: -20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+
+.none {
+    display: none !important;
+}
+
+.gray {
+    background-color: lightgray;
+}
+
+.centering {
+    width: 50%;
+    height: 50%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.loading {
+    background: url("../img/ajax-loader.gif");
+    width: 220px;
+    height: 19px;
+}
+
+
+
+#loadingModal {
+    width: 250px;
+    height: 59px;
+    z-index: 9999;
+}
+
+#divLoadingIcon {
+    padding-top: 18px;
+}
+
+
+
+
+.width15 {
+    width: 15%;
+}
+
+
+
+.displayInLine {
+    display: inline;
+}
+
+.dialogErrorMessage {
+    margin-left: 10px;
+}
+
