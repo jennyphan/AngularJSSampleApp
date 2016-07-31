@@ -10,7 +10,7 @@
     <!-- Basic Configurations -->
 
     <context:annotation-config/>   
-    <context:component-scan base-package="uberRates.*"/>
+    <context:component-scan base-package="sampleApp.*"/>
 
     <!-- SpringMVC -->
     <import resource="spring-mvc.xml"/>

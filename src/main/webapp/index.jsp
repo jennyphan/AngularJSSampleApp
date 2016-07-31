@@ -21,21 +21,20 @@
 	<script
 		src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 	<script type="text/javascript"
-		src="../uberRates/resources/bootstrap/js/bootstrap.js"></script>
+		src="../sampleApp/resources/bootstrap/js/bootstrap.js"></script>
 	<script type="text/javascript"
-		src="../uberRates/resources/bootstrap/js/bootstrap.min.js"></script>
+		src="../sampleApp/resources/bootstrap/js/bootstrap.min.js"></script>
 	<script type="text/javascript"
-		src="../uberRates/resources/bootstrap/js/angular.min.js"></script>
+		src="../sampleApp/resources/bootstrap/js/angular.min.js"></script>
 	<script type="text/javascript"
-		src="../uberRates/resources/bootstrap/js/ngAutoComplete.js"></script>
+		src="../sampleApp/resources/bootstrap/js/ngAutoComplete.js"></script>
 	<script type="text/javascript"
-		src="../uberRates/resources/bootstrap/js/angular-route.js"></script>
-	<script type="text/javascript" src="../uberRates/resources/app.js"></script>
+		src="../sampleApp/resources/bootstrap/js/angular-route.js"></script>
+	<script type="text/javascript" src="../sampleApp/resources/app.js"></script>
 	<script type="text/javascript"
-		src="../uberRates/components/uber/uberController.js"></script>
+		src="../sampleApp/components/sample/login/loginController.js"></script>
 	<script type="text/javascript"
-		src="../uberRates/components/uber/uberPriceController.js"></script>
-	<script type="text/javascript"
-		src="../uberRates/components/uber/uberService.js"></script>
+		src="../sampleApp/components/sample/todo/todoController.js"></script>
+	
 </body>
 </html>

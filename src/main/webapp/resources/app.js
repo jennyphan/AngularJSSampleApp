@@ -1,15 +1,15 @@
 'use strict';
 
-var app = angular.module('MainApp', [ 'uberApp', 'ngRoute', 'ngAutocomplete']);
+var app = angular.module('MainApp', [ 'sampleApp', 'ngRoute', 'ngAutocomplete']);
 app.config(function($routeProvider) {
 
-	$routeProvider.when('/welcome', {
-		templateUrl : '/uberRates/components/uber/uberHome.jsp',
-		controller : 'uberController'
-	}).when('/getPrices', {
-		templateUrl : '/uberRates/components/uber/uberPrices.jsp',
-		controller : 'uberPriceController'
+	$routeProvider.when('/login', {
+		templateUrl : '/sampleApp/components/sample/login/login.jsp',
+		controller : 'loginController'
+	}).when('/getTodo', {
+		templateUrl : '/sampleApp/components/sample/todo/todo.jsp',
+		controller : 'todoController'
 	}).otherwise({
-		redirectTo: '/welcome'
+		redirectTo: '/login'
 	});
 });

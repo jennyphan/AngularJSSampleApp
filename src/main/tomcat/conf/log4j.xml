@@ -18,7 +18,7 @@
         <level value="INFO" />
     </logger>
  
-    <logger name="uberRates.controller">
+    <logger name="sampleApp.controller">
         <level value="INFO" />
     </logger>
  
