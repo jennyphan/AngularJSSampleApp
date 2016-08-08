@@ -1,26 +1,30 @@
-body {
-    font: 300 14px/1.4em "Helvetica Neue",Helvetica,Arial,sans-serif;
-    margin: 20px !important;
+body > .container {
+    padding: 60px 15px 0;
 }
 
+
+img{
+        margin: 10px;
+    }
+
+.footer {
+    background-color: #f5f5f5;
+    bottom: 0;
+    height: 60px;
+    position: absolute;
+    width: 100%;
+}
+
+.footer > .container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     background: #000 none repeat scroll 0 0 !important;
     color: #fff !important ;
 }
 
-.inputAddress {
-	width: 475px !important;
-	height: 40px !important;
-	
-	box-shadow: 0 -2px 1px rgba(0, 0, 0, 0.03) inset !important;
-	/*padding: 16px 16px 16px 60px !important;*/
-	
-}
 
-
-.listDisplay  {
-    max-width: 400px;
-}
 /* Lastly, apply responsive CSS fixes as necessary */
 @media (max-width: 767px) {
     #footer {
